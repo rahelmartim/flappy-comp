@@ -2,7 +2,7 @@
 
 FlappyComp is a Flappy Bird style game that runs in the browser. It uses plain HTML5 Canvas and JavaScript. It has no framework, no dependencies, and no build step.
 
-[Play FlappyComp in your browser](https://rahelmartim.github.io/FlappyComp/)
+[Play FlappyComp in your browser](https://rahelmartim.github.io/flappy-comp/)
 
 <p align="center">
   <img src="docs/menu.png" alt="FlappyComp title screen" width="270" />
@@ -30,8 +30,8 @@ The game loads its files with ES modules and `fetch`, so you must serve the fold
 3. Open <http://localhost:8000> in your browser.
 
 ```sh
-git clone https://github.com/rahelmartim/FlappyComp.git
-cd FlappyComp
+git clone https://github.com/rahelmartim/flappy-comp.git
+cd flappy-comp
 python3 -m http.server 8000
 ```
 
