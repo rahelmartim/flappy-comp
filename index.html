@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#54bfca" />
+    <meta name="description" content="FlappyComp: a Flappy Bird style browser game made with HTML5 Canvas." />
+    <title>FlappyComp</title>
+    <link rel="icon" type="image/png" href="assets/images/sescomp-logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="stage">
+      <div id="frame">
+        <canvas id="game" aria-label="FlappyComp game. Press Space or tap to flap."></canvas>
+        <button id="mute" type="button" aria-label="Toggle sound" title="Toggle sound (M)">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 9v6h4l5 4V5L8 9H4z" />
+            <path class="wave" d="M16 8.5a4.5 4.5 0 0 1 0 7M18.5 6a8 8 0 0 1 0 12" />
+            <path class="cross" d="M16 9l6 6M22 9l-6 6" />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
